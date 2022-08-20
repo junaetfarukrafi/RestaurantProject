@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigation from './Navigation';
 
 const Heder = () => {
   return (
-    <div>Heder</div>
+    <div>
+        <Navigation/>
+    </div>
   )
 }
 
