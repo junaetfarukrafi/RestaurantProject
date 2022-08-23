@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <div className="footer">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-auto">
+            <p>Quick Byte Restaurant &#169; Copyright 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Footer;
