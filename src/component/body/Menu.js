@@ -57,9 +57,8 @@ class Menu extends Component {
     return (
       <div className="container">
         <div className="row">
-          {/* <div className="col-sm-4">
-            {menu} */}
-          <CardColumns>{menu}</CardColumns>
+          {/* <CardColumns>{menu}</CardColumns> */}
+          <CardBody>{menu}</CardBody>
           <Modal isOpen={this.state.modalOpen} onClick={this.toggleModal}>
             <ModalBody>{dishDetail}</ModalBody>
             <ModalFooter>
@@ -68,7 +67,6 @@ class Menu extends Component {
               </Button>
             </ModalFooter>
           </Modal>
-          {/* </div> */}
         </div>
       </div>
     );
