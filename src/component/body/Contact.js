@@ -37,14 +37,11 @@ class Contact extends Component {
     document.title = "Contact";
     return (
       <div className="container">
-        <div
-          className="row row-content"
-          style={{ paddingLeft: "20px", textAlign: "left" }}
-        >
+        <div className="row row-content" style={{ paddingLeft: "20px" }}>
           <div className="col-12">
-            <h3>Send Your Feedback</h3>
+            <h3 id="header1">Send Your Feedback</h3>
           </div>
-          <div className="col-12 col-md-7">
+          <div className="col-12">
             <Form className="formpading" onSubmit={this.handleSubmit}>
               <FormGroup row>
                 <Label htmlFor="firtname" md={2}>
@@ -150,7 +147,7 @@ class Contact extends Component {
 
               <FormGroup>
                 <Col md={{ size: 10, offset: 2 }}>
-                  <Button type="submit" color="primary">
+                  <Button type="submit" color="dark">
                     Send Feedback
                   </Button>
                 </Col>

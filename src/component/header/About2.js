@@ -1,5 +1,6 @@
 import React from "react";
 import aboutimage from "../../images/about.png";
+import { Link } from "react-router-dom";
 
 function About2() {
   return (
@@ -11,7 +12,9 @@ function About2() {
           blanditiis alias quidem quae quo dignissimos aliquid! Quia, ea
           laborum?
         </p>
-        <button>Read More</button>
+        <Link to="/about">
+          <button>Read More</button>
+        </Link>
       </div>
       <div className="about-image">
         <img src={aboutimage} alt="" />

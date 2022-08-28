@@ -20,5 +20,33 @@
 .formpading{
    padding-bottom: 50px;
 }
-
-
+#header1{
+  font-size: 3.5rem;
+  color:#3d2514;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Alfa Slab One';
+  margin-bottom: 70px;
+  width:100%;
+  align-items: center;
+}
+.container{
+  
+    background-image: url(./images/footer.png);
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container form Label{
+  height:50px;
+  margin:5px 0px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #110c09;
+  color: #ffffff;
+  border-radius: 5px;
+}
